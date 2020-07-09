@@ -1,0 +1,263 @@
+body{
+    background-image: url(https://vignette.wikia.nocookie.net/lossimpson/images/5/50/Wiki-background/revision/latest?cb=20200108235134&path-prefix=es);
+    background-size: auto;
+    background-attachment: fixed;
+    font-family: Mongolian;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a.b{
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.box{
+    padding: 5px;
+    margin:5px;
+    position: fixed  ;
+    top:30px;
+    right: 10px;
+    display: block;
+    float: right;
+}
+
+#cabecera{
+    height: 110px;
+}
+
+/* css del index */
+
+
+.navbar {
+    overflow: hidden;
+    background-color: gold;
+    width: 400px;
+    margin-left: 740px;
+    margin-top: 25px;
+    padding-left: 50px;
+    border-radius: 10px;
+    
+}
+  
+.navbar a {
+    float:left;
+    font-size: 20px;
+    color: black; 
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.tituloinicio{
+    width: 35%;
+    transform: skewY(10deg);
+}        
+       
+#contenido{
+    width: 95%;
+    height: 80%; 
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+}        
+
+h1, h2, h3, p {
+    text-align: center;
+    color: black;
+}
+
+/* css de la galeria */
+.galeria {
+    border-style:groove;
+    border-width:10px;
+    border-color:gold;
+    border-radius:20 20;
+}
+
+.titulo {
+    color: black;
+    font-size: 500%;
+    width: 550PX;
+    height: 95PX;
+    border-style:groove;
+    border-width:10px;
+    border-color:gold;
+    border-radius:20 20;
+    box-shadow:10px 10px 20px black; 
+}
+
+
+/* css de los personajes */
+
+.tituloper {
+    color: #fffaf0;                                        /* color hexa */
+    font-size:200%;
+    width: 240PX;
+    height: 48PX;
+    border-style:groove;
+    border-width:5px;
+    border-color:rgb(255, 215, 0);                         /* color rgb */
+    border-radius:20 20;
+    box-shadow:10px 10px 20px black; 
+}
+
+
+.per {
+    border-style:groove;
+    border-width:5px; 
+    border-color:hsl(51, 100%, 50%);                       /* color hsl */
+    border-radius:20 20;
+}
+
+
+.boxper {
+    background-color: rgba(105, 105, 105, 0.8);            /* color rgba */
+    border-color:#ffd700;
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+    border-style: dotted;
+    border-width: 5px;
+}
+
+
+.margentext {
+    padding: 10px;
+    font-size: 25px;
+    color: floralwhite;
+}
+
+
+
+/* css prueba */
+
+
+#cap1{
+    background-color: rgba(105, 105, 105, 0.8);            /* color rgba */
+    border-color:#ffd700;
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+    border-style: dotted;
+    border-width: 5px;
+}
+
+#cap2{
+    background-color: rgba(105, 105, 105, 0.8);            /* color rgba */
+    border-color:#ffd700;
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+    border-style: dotted;
+    border-width: 5px;
+}
+
+#cap3{
+    background-color: rgba(105, 105, 105, 0.8);            /* color rgba */
+    border-color:#ffd700;
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+    border-style: dotted;
+    border-width: 5px;
+}
+
+
+
+/* simbolos para el footer */
+
+#facebook {
+    width: 40px;
+    height: 40px;
+    background: url(https://4.bp.blogspot.com/-fE6jY2sCjhE/TmjsS516Q8I/AAAAAAAACOc/pVUNDOgiw8Q/s1600/redes.png) -52px -100px;
+}
+    
+#facebook:hover {
+    width: 40px;
+    height: 40px;
+    background: url(https://4.bp.blogspot.com/-fE6jY2sCjhE/TmjsS516Q8I/AAAAAAAACOc/pVUNDOgiw8Q/s1600/redes.png) -52px -50px;
+}
+    
+#youtube {
+    width: 40px;
+    height: 40px;
+    background: url(https://4.bp.blogspot.com/-fE6jY2sCjhE/TmjsS516Q8I/AAAAAAAACOc/pVUNDOgiw8Q/s1600/redes.png) -98px -100px;
+}
+    
+    
+#youtube:hover {
+    width: 40px;
+    height: 40px;
+    background: url(https://4.bp.blogspot.com/-fE6jY2sCjhE/TmjsS516Q8I/AAAAAAAACOc/pVUNDOgiw8Q/s1600/redes.png) -98px -50px;
+}
+    
+#twitter {
+    width: 40px;
+    height: 40px;
+    background: url(https://4.bp.blogspot.com/-fE6jY2sCjhE/TmjsS516Q8I/AAAAAAAACOc/pVUNDOgiw8Q/s1600/redes.png) -145px -100px;
+}
+
+#twitter:hover {
+    width: 40px;
+    height: 40px;
+    background: url(https://4.bp.blogspot.com/-fE6jY2sCjhE/TmjsS516Q8I/AAAAAAAACOc/pVUNDOgiw8Q/s1600/redes.png) -145px -50px;
+}
+
+.boxfooter {
+    background-color: rgba(105, 105, 105, 0.8);            /* color rgba */  
+    width: 95%;
+    height: 80%;
+    padding: 10px;                                      /* padding */ 
+    margin: 10px;                                      /* margin */ 
+    border-width: 5px;
+}
+
+
+
+/* css app */    
+.frame{
+    width: 80%;
+    height: 300px;
+}
+
+#body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+    
+.button {
+    background-color: #f9d92e;
+    font-size:20px;
+    color:black;
+    padding: 15px;
+    border-radius: 10px;
+    margin:20px;
+}
+    
+.button:hover {
+    background-color: #f9d92e;
+    font-size:30px;
+    color:black;
+    padding: 15px;   
+    border-radius: 10px;   
+}
+
+.boxfooter {
+    background-color: rgba(105, 105, 105, 0.8);            /* color rgba */  
+    width: 95%;
+    height: 80%;
+    padding: 10px;                                      /* padding */ 
+    margin: 10px;                                      /* margin */ 
+    border-width: 5px;
+}
+    
