@@ -31,14 +31,60 @@ a.b{
     height: 110px;
 }
 
+/* fuente */
+@font-face {
+    font-family: simpfuente;
+    src: url(../fuentes/Simpsonfont.otf);
+   
+}  
+
+  div {
+    font-family: simpfuente;
+    word-spacing: 10px;
+}
+
+section{
+    font-family: simpfuente;
+    word-spacing: 10px;
+}
+
+/* animacion */
+div.animacion1 {
+    width: 10%;
+    height: 150px;
+    position: relative;
+    animation: mymove1 30s infinite;
+}
+  
+@keyframes mymove1 {
+    0%   {top: 0px; left: 0px;}
+    25%  {top: 0px; left: 88%;}
+    50%  {top: 1000px; left: 88%;}
+    75%  {top: 1000px; left: 0px;}
+    100% {top: 0px; left: 0px;}
+}
+
+.animacion2 {
+    padding: 5px; 
+    width: 10%;
+    position: relative;
+    animation: mymove2 5s infinite;
+}
+
+@keyframes mymove2 {
+0% {transform: rotate(1deg);}
+        100% {transform: rotate(-360deg);}
+}
+
+
 /* css del index */
 
 
 .navbar {
     overflow: hidden;
     background-color: gold;
-    width: 400px;
-    margin-left: 740px;
+    width: 450px;
+    margin-left: 690px;
     margin-top: 25px;
     padding-left: 50px;
     border-radius: 10px;
@@ -51,7 +97,9 @@ a.b{
     color: black; 
     padding: 14px 16px;
     text-decoration: none;
+    
 }
+
 
 .tituloinicio{
     width: 35%;
@@ -59,13 +107,12 @@ a.b{
 }        
        
 #contenido{
-    width: 95%;
-    height: 80%; 
+    width: 73%;
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
-
+    top: 70px;
 }        
 
 h1, h2, h3, p {
@@ -83,7 +130,7 @@ h1, h2, h3, p {
 
 .titulo {
     color: black;
-    font-size: 500%;
+    font-size: 380%;
     width: 550PX;
     height: 95PX;
     border-style:groove;
@@ -98,7 +145,7 @@ h1, h2, h3, p {
 
 .tituloper {
     color: #fffaf0;                                        /* color hexa */
-    font-size:200%;
+    font-size:150%;
     width: 240PX;
     height: 48PX;
     border-style:groove;
@@ -259,5 +306,10 @@ h1, h2, h3, p {
     padding: 10px;                                      /* padding */ 
     margin: 10px;                                      /* margin */ 
     border-width: 5px;
+    margin-top: 80px;
 }
-    
+   
+
+.imgfooter{
+    width: 50px;
+}
