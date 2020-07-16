@@ -27,6 +27,18 @@ a.b{
     float: right;
 }
 
+
+.box1{
+    display: inline;
+    padding: 5px;
+    margin:5px;
+    float: left;
+}
+.box2{
+    display: inline;
+}
+
+
 #cabecera{
     height: 110px;
 }
